@@ -1,0 +1,10 @@
+Flask
+Flask-WTF
+Pillow
+PyYAML
+ipython
+matplotlib
+opencv-python
+playsound==1.2.2
+torch
+ultralytics
