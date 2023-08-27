@@ -94,3 +94,6 @@ Finally, we would like to thank our families, friends, and colleagues for their 
 
 
 DEMO VIDEO LINK: https://youtu.be/Nq08g_xOak8
+TEAM MEMBERS: SAMBIT MALLICK 
+              SRIJA CHAKRABORTY
+              SNIGDHA PAUL
