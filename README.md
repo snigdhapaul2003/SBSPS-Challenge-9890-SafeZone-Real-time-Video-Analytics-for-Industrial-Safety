@@ -7,7 +7,7 @@ Industrial Safety is essential for promoting worker safety, preventing accidents
 
 Chosen Solution:
 "AutoAware: Automatic car safety alarm system"
-Our solution aims to develop an advanced low-light object detection system using YOLOv8, a real-time object detection algorithm. Its core purpose is to enhance driver's safety by identifying potential obstacles and hazards in low light conditions, specifically vehicles and pedestrians. The solution is versatile and applicable across industries such as logistics, delivery, construction, mining, and agriculture. By implementing the system on a driver's perspective video feed, it simulates real-world scenarios, offering practical safety enhancements for various transportation sectors.
+Our solution aims to develop an advanced low-light object detection system using YOLOv8, a real-time object detection algorithm. Its core purpose is to enhance driver's safety by identifying potential obstacles and hazards in low light conditions, specifically vehicles and pedestrians. The solution is versatile and applicable across logistics, delivery, construction, mining, and agriculture industries. Implementing the system on a driver's perspective video feed simulates real-world scenarios, offering practical safety enhancements for various transportation sectors.
 
 Requirement Analysis:
 Functional Requirements:
@@ -62,7 +62,7 @@ The YOLOv8 custom model training process involved several key steps, and it was 
 The training process focused on specific object classes relevant to the project's objectives. These classes included bicycle, bus, car, cat, dog, motorbike, and people.
 Images and annotations from the ExDark dataset were preprocessed to ensure object annotation format.We had converted the annotation to yolo format.
 The training process was conducted in a GPU environment, leveraging the computational power of GPUs to significantly expedite the training process.The training of the YOLOv8 custom model was significantly streamlined and enhanced through the utilization of the Ultralytics library. It was done with 50 epochs and the batch size was 8.
-The model's performance was evaluated using metrics such as Mean Average Precision (mAP). The mAP value reflects the accuracy of object detection and localization.The trained YOLOv8 custom model achieved a mAP value of nearly 70%, indicating a high level of accuracy in detecting and localizing the selected object classes within low light environments.The weight file of this custom training is used for future predictions and real time object detections.
+The model's performance was evaluated using metrics such as Mean Average Precision (mAP). The mAP value reflects the accuracy of object detection and localization. The trained YOLOv8 custom model achieved a mAP value of nearly 70%, indicating a high level of accuracy in detecting and localizing the selected object classes within low light environments.The weight file of this custom training is used for future predictions and real time object detections.
 Computer Vision: The OpenCV library is instrumental in the project's computer vision aspect, serving as a key tool for image and video processing.
 Webcam Feed Capture: OpenCV is used to capture live video feeds from the webcam, allowing real-time access to the environment from the driver's perspective.
 Frame Processing: The library processes individual video frames in real time. Each frame undergoes analysis for object detection and hazard assessment.
@@ -78,13 +78,13 @@ Install Dependencies: Run the command pip install -r requirements.txt to install
 Run the Web App: Execute the app.py file by running the command python app.py in the terminal.
 Access the Web App: Once the app is running, you'll see output indicating that the server is active. Open a web browser and enter the provided URL (usually http://localhost:5000) to access the web app.
 
-This setup allows you to interact with the low light object detection system and experience its features firsthand.
+This setup allows you to interact with the low-light object detection system and experience its features firsthand.
 
 Acknowledgement:
 
 We extend our sincere gratitude to IBM for their support and resources that have greatly contributed to the success of this project. The opportunity to work with their cutting-edge technologies and platforms has been invaluable.
 
-We would also like to express our heartfelt appreciation to all the guides and mentors that have been instrumental in guiding us throughout the project's development. Their insights, expertise, and unwavering support have been crucial in shaping the project and achieving its objectives.
+We would also like to express our heartfelt appreciation to all the guides and mentors who have been instrumental in guiding us throughout the project's development. Their insights, expertise, and unwavering support have been crucial in shaping the project and achieving its objectives.
 
 We acknowledge the collaborative efforts of our fellow team members who have worked diligently to bring this project to fruition. Each contribution, no matter how small, has played a significant role in the project's overall success.
 
